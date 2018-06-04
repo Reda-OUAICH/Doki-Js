@@ -1,8 +1,8 @@
 {
   "steps": [
     {
-      "description":"Commment t’appelles-tu ?",
-      "img_src":"./styles/gifs/happy.png",
+      "description":"Comment t’appelles-tu ?",
+      "img_src":"../styles/gifs/happy.png",
       "option1": {
         "description": "x-300-4001 ",
         "next": "1"
@@ -15,7 +15,7 @@
 
     {
       "description":"J’aime beaucoup ton prénom. Moi c’est X223-B8-Prototype.V2, je vais te poser une série de question afin de déterminer si nos versions sont potentiellement compatible. Es-tu d’accord ? ",
-      "img_src":"./styles/gifs/happy.png",
+      "img_src":"../styles/gifs/happy.png",
       "option1": {
         "description": "Oui",
         "next": "3"
