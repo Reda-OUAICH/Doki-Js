@@ -11,18 +11,20 @@
     width: 100px;
     height: 45px;
     border: 0;
-    background-color: red;
+    background-color: pink;
     color: white;
     top: 0;
     right: 0;
-    margin: 450px 370px 0 0;
+    margin: 460px 330px 0 0;
 
   }
   &-gameTitle{
     position: absolute;
     z-index: 2;
     font-size: 67px;
-    color: white;
+    text-align: center;
+    width: 442px;
+    color: black;
     top: 0;
     right: 0;
     margin: 250px 150px;

@@ -15,7 +15,7 @@
 
     {
       "description":"J’aime beaucoup ton prénom. Moi c’est X223-B8-Prototype.V2, je vais te poser une série de question afin de déterminer si nos versions sont potentiellement compatible. Es-tu d’accord ? ",
-      "img_src":"../styles/gifs/happy.png",
+      "img_src":"../styles/gifs/head.gif",
       "option1": {
         "description": "Oui",
         "next": "3"
@@ -23,6 +23,54 @@
       "option2": {
         "description": "Euh..",
         "next": "4"
+      }
+    },
+    {
+      "description":"lol",
+      "img_src":"../styles/gifs/happy.png",
+      "option1": {
+        "description": "Oui",
+        "next": "5"
+      },
+      "option2": {
+        "description": "Euuuh..",
+        "next": "3"
+      }
+    },
+    {
+      "description":"redfthjghklm ",
+      "img_src":"../styles/gifs/happy.png",
+      "option1": {
+        "description": "dfghjk",
+        "next": "4"
+      },
+      "option2": {
+        "description": "fghjk",
+        "next": "8"
+      }
+    },
+    {
+      "description":"I DONT GIVE A FUCK",
+      "img_src":"../styles/gifs/happy.png",
+      "option1": {
+        "description": "plopplop",
+        "next": "7"
+      },
+      "option2": {
+        "description": "youhou",
+        "next": "8"
+      }
+    },
+    {
+      "description":"I DONT GIVE A FUUUUUUCK",
+      "img_src":"../styles/gifs/happy.png",
+      "option1": {
+        "description": "plop",
+        "next": "7"
+      },
+      "option2": {
+        "description": "yolo",
+        "next": "8"
       }
     }
   ]
