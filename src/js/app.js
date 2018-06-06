@@ -7,12 +7,14 @@ fetch('./js/data.json').then(response => {  
     index = data.steps[index].option1.next;
     questions.innerHTML = data.steps[index].description;
     firstAnswer.innerHTML = data.steps[index].option1.description;
+    secondAnswer.innerHTML = data.steps[index].option2.description;
   });
 
   secondAnswer.addEventListener('click', function() {
     index = data.steps[index].option2.next;
     questions.innerHTML = data.steps[index].description;
     secondAnswer.innerHTML = data.steps[index].option2.description;
+    firstAnswer.innerHTML = data.steps[index].option1.description;
   });
 
   image.src = data.steps[0].img_src;
