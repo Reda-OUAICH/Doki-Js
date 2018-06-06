@@ -8,7 +8,7 @@
         "next": "1"
       },
       "option2": {
-        "description": "Damien",
+        "description": "DamienDZ92",
         "next": "2"
       }
     },
@@ -78,11 +78,11 @@
       "img_src":"../styles/gifs/happy.png",
       "option1": {
         "description": "#A10303",
-        "next": "9"
+        "next": "8"
       },
       "option2": {
         "description": "#03A14A",
-        "next": "8"
+        "next": "9"
       }
     },
       {

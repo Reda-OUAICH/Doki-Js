@@ -4,33 +4,11 @@
  max-height: 100vh;
  position: relative;
  }
- &-happy{
-  display: block;
- }
- &-bugHead{
-  display: none;
-
- }
- &-scaryEnd{
-   display: none;
- }
- &-wearingBug{
-   display: none;
- }
-  &-guns{
-    display: none;
-  }
-  &-inlove{
-    display: none;
-  }
-  &-coolEnd{
-    display: none;
-  }
-
 }
 
 .--character{
-  top: 0;
+
+  top: 10px;
   height: 100%;
   position: absolute;
   overflow: hidden;

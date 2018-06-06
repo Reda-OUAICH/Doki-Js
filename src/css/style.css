@@ -48,30 +48,9 @@ table {
   max-height: 100vh;
   position: relative;
 }
-.scene-happy {
-  display: block;
-}
-.scene-bugHead {
-  display: none;
-}
-.scene-scaryEnd {
-  display: none;
-}
-.scene-wearingBug {
-  display: none;
-}
-.scene-guns {
-  display: none;
-}
-.scene-inlove {
-  display: none;
-}
-.scene-coolEnd {
-  display: none;
-}
 
 .--character {
-  top: 0;
+  top: 10px;
   height: 100%;
   position: absolute;
   overflow: hidden;
