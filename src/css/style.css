@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -13,7 +12,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* HTML5 display-role reset for older browsers */
-
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -50,31 +48,24 @@ table {
   max-height: 100vh;
   position: relative;
 }
-
 .scene-happy {
   display: block;
 }
-
 .scene-bugHead {
   display: none;
 }
-
 .scene-scaryEnd {
   display: none;
 }
-
 .scene-wearingBug {
   display: none;
 }
-
 .scene-guns {
   display: none;
 }
-
 .scene-inlove {
   display: none;
 }
-
 .scene-coolEnd {
   display: none;
 }
@@ -92,7 +83,6 @@ table {
   z-index: 2;
   position: absolute;
 }
-
 .start-btnStart {
   position: absolute;
   z-index: 2;
@@ -103,10 +93,10 @@ table {
   color: white;
   top: 0;
   right: 0;
-  margin: 450px 370px 0 0;
+  margin: 460px 320px 0 0;
 }
-
 .start-gameTitle {
+  font-weight: bold;
   position: absolute;
   z-index: 2;
   font-size: 67px;
@@ -117,7 +107,6 @@ table {
   right: 0;
   margin: 250px 150px;
 }
-
 .start-startButton {
   position: absolute;
   margin: 0 auto;
@@ -136,12 +125,10 @@ table {
   margin: 0 50px 50px 0;
   font-family: Avenir Next;
 }
-
 .textbox-question {
-  font-size: 24px;
-  margin: 20px 0 50px 20px;
+  font-size: 22px;
+  margin: 20px 0 40px 10px;
 }
-
 .textbox-answerContainer {
   cursor: pointer;
   color: #FEFEFE;
@@ -149,11 +136,9 @@ table {
   display: flex;
   justify-content: space-around;
 }
-
 .textbox-answer1:hover {
   color: lightgrey;
 }
-
 .textbox-answer2:hover {
   color: lightgrey;
 }

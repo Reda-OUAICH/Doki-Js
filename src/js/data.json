@@ -1,20 +1,20 @@
 {
   "steps": [
     {
-      "description":"",
+      "description":"Salut toi ! Comment t’appelles-tu ?",
       "img_src":"../styles/gifs/happy.png",
       "option1": {
-        "description": "Carrément !",
+        "description": "x-300-4001",
         "next": "1"
       },
       "option2": {
-        "description": "Euh...",
+        "description": "Damien",
         "next": "2"
       }
     },
 
     {
-      "description":"J’aime beaucoup ton prénom. Moi c’est X223-B8-Prototype.V2, je vais te poser une série de question afin de déterminer si nos versions sont potentiellement compatible. Es-tu d’accord ?",
+      "description":"J’aime beaucoup ton prénom. Moi c’est X223-B8-Prototype-V2, je vais te poser une série de question afin de déterminer si nos versions sont potentiellement compatible. Es-tu d’accord ?",
       "img_src":"../styles/gifs/head.gif",
       "option1": {
         "description": "Carrément !",
@@ -22,56 +22,176 @@
       },
       "option2": {
         "description": "Euh...",
-        "next": "4"
-      }
-    },
-    {
-      "description":"ferme la",
-      "img_src":"../styles/gifs/happy.png",
-      "option1": {
-        "description": "Oui",
-        "next": "5"
-      },
-      "option2": {
-        "description": "Euuuh..",
         "next": "3"
       }
     },
     {
-      "description":"redfthjghklm ",
+      "description":"C’est un prénom.. étrange.. Moi c’est X-223-B8-Prototype-v2, je vais te poser un série de question afin de déterminer si nos versions sont potentiellement compatible. Et-tu d’accord ? ",
+      "img_src":"../styles/gifs/natsukivomi.png",
+      "option1": {
+        "description": "Carrément !",
+        "next": "3"
+      },
+      "option2": {
+        "description": "Euh...",
+        "next": "3"
+      }
+    },
+    {
+      "description":"Super, commençons: Quel est selon toi le meilleur navigateur ?",
       "img_src":"../styles/gifs/happy.png",
       "option1": {
-        "description": "dfghjk",
+        "description": "Internet Explorer",
+        "next": "5"
+      },
+      "option2": {
+        "description": "Google Chrome",
         "next": "4"
-      },
-      "option2": {
-        "description": "fghjk",
-        "next": "8"
       }
     },
     {
-      "description":"I DONT GIVE A FUCK",
-      "img_src":"../styles/gifs/happy.png",
+      "description":"Wow... L’amour de ma vie a besoin d’être au courant de ce qui se passe dans mon organisme… Sais-tu ce qu’est un protocole HTTP ? ",
+      "img_src":"../styles/gifs/inlove.gif",
       "option1": {
-        "description": "plopplop",
+        "description": "J'en ai aucune idée...",
         "next": "7"
       },
       "option2": {
-        "description": "youhou",
-        "next": "8"
+        "description": "Biensûr, il s’agit de L’Hypertext Transf...",
+        "next": "6"
       }
     },
     {
-      "description":"I DONT GIVE A FUUUUUUCK",
-      "img_src":"../styles/gifs/happy.png",
+      "description":"Ah... Et, sais-tu ce qu’est un protocole HTTP?",
+      "img_src":"../styles/gifs/Ah.png",
       "option1": {
-        "description": "plop",
+        "description": "J'en ai aucune idée...",
         "next": "7"
       },
       "option2": {
-        "description": "yolo",
+        "description": "Biensûr, il s’agit de L’Hypertext Transf...",
+        "next": "6"
+      }
+    },
+    {
+      "description":"Impressionnant, tu es vraiment intelligent ! A ton avis, quelle-est ma couleur préférée ? ",
+      "img_src":"../styles/gifs/happy.png",
+      "option1": {
+        "description": "#A10303",
+        "next": "9"
+      },
+      "option2": {
+        "description": "#03A14A",
         "next": "8"
       }
+    },
+      {
+        "description":"Je te pensais plus futé que ça, mais après tout, tu restes.. qu’un simple humain.. A ton avis, quelle-est ma couleur préférée ?...",
+        "img_src":"../styles/gifs/happy.png",
+        "option1": {
+          "description": "#A10303",
+          "next": "8"
+        },
+        "option2": {
+          "description": "#03A14A",
+          "next": "9"
+        }
+    },
+    {
+      "description":"Il est vrai que j’aime particulièrement cette couleur.. elle est.. fascinante. Au fait, te rappelles-tu de mon prénom ? ",
+      "img_src":"../styles/gifs/wear.gif",
+      "option1": {
+        "description": "Euh… prototype v0..",
+        "next": "11"
+      },
+      "option2": {
+        "description": "X223-B8-Prototype-V2",
+        "next": "10"
+      }
+  },
+  {
+    "description":"Et pourtant, je préfère largement la couleur rouge.. une couleur fascinante qui se rapproche du sang... Au fait, te rappelles-tu de mon prénom ?",
+    "img_src":"../styles/gifs/head.gif",
+    "option1": {
+      "description": "Euh… prototype v0..",
+      "next": "11"
+    },
+    "option2": {
+      "description": "X223-B8-Prototype-V2",
+      "next": "10"
     }
+  },
+  {
+    "description":"Tu as vraiment la mémoire d’une machine.. Enfin, dernière question.. Connais-tu les 10 dernières décimales de PI ? ",
+    "img_src":"../styles/gifs/inlove.gif",
+    "option1": {
+      "description": "3,1415926535",
+      "next": "13"
+    },
+    "option2": {
+      "description": "Aucune idée..",
+      "next": "12"
+    }
+  },
+  {
+    "description":"Je suppose que tu ne connais pas non plus les 10 dernières décimales de PI ?",
+    "img_src":"../styles/gifs/angry.gif",
+    "option1": {
+      "description": "3,1415926535",
+      "next": "13"
+    },
+    "option2": {
+      "description": "Toujours pas...",
+      "next": "12"
+    }
+  },
+  {
+    "description":"J’aime ton honnêteté Je suis partante pour un prochain rendez-vous.. ",
+    "img_src":"../styles/gifs/angry.gif",
+    "option1": {
+      "description": "C'etait un plaisir...",
+      "next": "15"
+    },
+    "option2": {
+      "description": "Je t'ai...",
+      "next": "15"
+    }
+  },
+  {
+    "description":"TU ES ALLÉ VOIR SUR INTERNET ??? CE RENDEZ-VOUS S’ARRETE ICI",
+    "img_src":"../styles/gifs/knife.gif",
+    "option1": {
+      "description": "MAIS...",
+      "next": "14"
+    },
+    "option2": {
+      "description": "TU TE TROMPE ATTEND",
+      "next": "14"
+    }
+  },
+  {
+    "description":"Tu es, malheureusement mort... Veux tu réessayer ?",
+    "img_src":"../styles/gifs/scary.gif",
+    "option1": {
+      "description": "Oui",
+      "next": "0"
+    },
+    "option2": {
+      "description": "Ai-je le choix ?...",
+      "next": "0"
+    }
+  },
+  {
+    "description":"Super ! Tu as réussis à séduire cette IA, veux tu réessayer?",
+    "img_src":"../styles/gifs/inlove.gif",
+    "option1": {
+      "description": "Oui",
+      "next": "0"
+    },
+    "option2": {
+      "description": "Bienfur",
+      "next": "0"
+    }
+  }
   ]
 }

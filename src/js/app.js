@@ -1,13 +1,12 @@
-// Replace ./data.json with your JSON feed
 fetch('./js/data.json').then(response => {  
   return response.json();
 }).then(data => {  
-
   firstAnswer.addEventListener('click', function() {
     index = data.steps[index].option1.next;
     questions.innerHTML = data.steps[index].description;
     firstAnswer.innerHTML = data.steps[index].option1.description;
     secondAnswer.innerHTML = data.steps[index].option2.description;
+    image.src = data.steps[index].img_src;
   });
 
   secondAnswer.addEventListener('click', function() {
@@ -15,11 +14,12 @@ fetch('./js/data.json').then(response => {  
     questions.innerHTML = data.steps[index].description;
     secondAnswer.innerHTML = data.steps[index].option2.description;
     firstAnswer.innerHTML = data.steps[index].option1.description;
+    image.src = data.steps[index].img_src;
   });
 
   image.src = data.steps[0].img_src;
 }).catch(err => {  
-  console.log('ERROR DATA');
+  console.log(err);
 });
 
 var questions = document.querySelector('#questions');
@@ -35,11 +35,3 @@ function game(param1, param2, param3, param4) {
   secondAnswer.innerHTML = param3;
   image.src = param4;
 };
-
-// secondAnswer.addEventListener('click', function() {
-//   console.log('cucu');
-// });
-
-// function startGame(data) {
-//   game(data.steps[0].description, data.steps[0].img_src, data.steps[0].option1.description);
-// }
