@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.scene-background {
+  min-width: 100%;
+  max-height: 100vh;
+  position: relative;
+}
+
+.--character {
+  top: 10px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.start-background {
+  min-width: 100%;
+  max-height: 100vh;
+  z-index: 2;
+  position: absolute;
+}
+.start-btnStart {
+  position: absolute;
+  z-index: 2;
+  width: 100px;
+  height: 45px;
+  border: 0;
+  background-color: pink;
+  color: white;
+  top: 0;
+  right: 0;
+  margin: 460px 320px 0 0;
+}
+.start-gameTitle {
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+  font-size: 67px;
+  text-align: center;
+  width: 442px;
+  color: black;
+  top: 0;
+  right: 0;
+  margin: 250px 150px;
+}
+.start-startButton {
+  position: absolute;
+  margin: 0 auto;
+}
+
+.textbox {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 3px solid pink;
+  background-color: salmon;
+  border-radius: 10px;
+  color: white;
+  width: 740px;
+  height: 200px;
+  margin: 0 50px 50px 0;
+  font-family: Avenir Next;
+}
+.textbox-question {
+  font-size: 22px;
+  margin: 20px 0 40px 10px;
+}
+.textbox-answerContainer {
+  cursor: pointer;
+  color: #FEFEFE;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+}
+.textbox-answer1:hover {
+  color: lightgrey;
+}
+.textbox-answer2:hover {
+  color: lightgrey;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=../css/style.css.map */
