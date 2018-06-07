@@ -2,7 +2,7 @@
   "steps": [
     {
       "description":"Salut toi ! Comment t’appelles-tu ?",
-      "img_src":"../styles/gifs/happy.png",
+      "img_src":"",
       "option1": {
         "description": "x-300-4001",
         "next": "1"
